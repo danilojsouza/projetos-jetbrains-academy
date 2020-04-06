@@ -8,7 +8,7 @@ public class SimpleBot {
 
     public static void main(String[] args) {
         conhecer("DJS", "2020");
-        nome = remindName();
+        nome = lembrarNome();
         adivinharIdade();
         contar();
         teste();
@@ -21,10 +21,10 @@ public class SimpleBot {
         System.out.println("Por favor, me diga seu nome.");
     }
 
-    static String remindName() {
-        String name = scanner.nextLine();
-        System.out.println("Belo nome " + name + "!");
-        return name;
+    static String lembrarNome() {
+        String nome = scanner.nextLine();
+        System.out.println("Belo nome " + nome + "!");
+        return nome;
     }
 
     static void adivinharIdade() {
