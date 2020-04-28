@@ -1,2 +1,2 @@
 ### Project JAX-WS and Client
-Eclipse JEE, Apache TomCat with Jersey.
+Eclipse JEE, Apache TomCat.
